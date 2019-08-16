@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../logo.svg';
 import './App.css';
+import Content from './Content/Content';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <Content name={"Ayako"} />
     </div>
   );
 }
